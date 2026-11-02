@@ -1,0 +1,58 @@
+{
+  "hash_opening": {
+    "id": "hash_opening",
+    "title": "Hash opening",
+    "provingSystem": "UltraHonk (EVM target)",
+    "noirVersion": "1.0.0-beta.22",
+    "circuitHash": "0x3eb2eee501d74884bb54309ba9230155d3003d7fafdeeb81c50843b46b4f0b5f",
+    "vkHash": "0xe859614cf5791c3155cfb0a5ff9af447b3cc0717666ef90dc5fdf818c5194ee1",
+    "gates": 946,
+    "opcodes": 318,
+    "publicInputs": 1,
+    "proofBytes": 6464,
+    "vkBytes": 1888,
+    "artifactBytes": 30179
+  },
+  "range_gate": {
+    "id": "range_gate",
+    "title": "Range gate",
+    "provingSystem": "UltraHonk (EVM target)",
+    "noirVersion": "1.0.0-beta.22",
+    "circuitHash": "0x505ef906db276324dcf2507cbfad0c4bbf5429e98f67291233f46b5ad8819056",
+    "vkHash": "0xb4268bd3ea2ec12b0a73a35f092fe14683cabaffef35950416fcffecb099ca79",
+    "gates": 3756,
+    "opcodes": 333,
+    "publicInputs": 3,
+    "proofBytes": 7232,
+    "vkBytes": 1888,
+    "artifactBytes": 31116
+  },
+  "path_member": {
+    "id": "path_member",
+    "title": "Path member",
+    "provingSystem": "UltraHonk (EVM target)",
+    "noirVersion": "1.0.0-beta.22",
+    "circuitHash": "0xc2829c86bb4140ac1e4900424025a17f0e465123962193bd558720b24ffc0452",
+    "vkHash": "0xe082939c6388e42cac11f9b9ef899552a29d490bb0ba812541054153dabe75d9",
+    "gates": 8797,
+    "opcodes": 3238,
+    "publicInputs": 3,
+    "proofBytes": 8000,
+    "vkBytes": 1888,
+    "artifactBytes": 270277
+  },
+  "tally_floor": {
+    "id": "tally_floor",
+    "title": "Tally floor",
+    "provingSystem": "UltraHonk (EVM target)",
+    "noirVersion": "1.0.0-beta.22",
+    "circuitHash": "0x252d0d4da630ec822ad5b7b33839cc1f6f5b76409fb81b6b88aae95a2443a984",
+    "vkHash": "0x03c0ac8170ae5f3a4345757f79379e4de127cb902e936ff9c8d460922a7f2a8a",
+    "gates": 10273,
+    "opcodes": 2562,
+    "publicInputs": 2,
+    "proofBytes": 8000,
+    "vkBytes": 1888,
+    "artifactBytes": 229696
+  }
+}
