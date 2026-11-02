@@ -118,7 +118,7 @@ The site offers to add it when you connect.
 
 ## Token
 
-$ZKFLASH is the community token of zkFlash on Robinhood Chain. Contract address: announced on https://zkflash.xyz at launch. It has no promised value, and every tool here works without it. Hosted test credits, premium reports and API services are planned uses, not built.
+$ZKFLASH is the community token of zkFlash on Robinhood Chain. Contract address: `0x154f58f08fd1fbd1a60c1e45da6bd8c3e773b771`, live on Pons on Robinhood Chain. It has no promised value, and every tool here works without it. Hosted test credits, premium reports and API services are planned uses, not built.
 
 ## Deploy your own
 

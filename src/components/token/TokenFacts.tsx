@@ -1,7 +1,7 @@
 "use client";
 
 import { useChain } from "@/components/providers/ChainProvider";
-import { BRAND, LAUNCHPAD, TOKEN, buyUrl, chartUrl } from "@/config/brand";
+import { BRAND, CHART_PAIR, LAUNCHPAD, TOKEN, buyUrl, chartUrl } from "@/config/brand";
 import { fmtSupply, usd } from "@/lib/format";
 
 /** Token facts read on chain (after launch) plus public market data; before launch every slot says so. */
@@ -18,7 +18,7 @@ export function TokenFacts() {
     { k: "ETH / USD", v: usd(facts?.ethUsd ?? null) },
     { k: "Chain block", v: facts?.block ? facts.block.toLocaleString("en-US") : "—" },
   ];
-  const chart = chartUrl(BRAND.ca);
+  const chart = TOKEN.isLive ? chartUrl(CHART_PAIR) : null;
   return (
     <>
       <dl className="zf-grid-stats m-0" data-testid="token-facts">

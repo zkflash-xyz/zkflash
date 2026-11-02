@@ -3,8 +3,14 @@
 // the token page and every explorer link derive from it. Anything that is not a 0x + 40 hex address is
 // treated as "not launched yet".
 
-/** Contract address of $ZKFLASH. "TBA" until the owner publishes it (typed string so a real 0x value drops in). */
-const CA: string = "TBA";
+/** Contract address of $ZKFLASH on Robinhood Chain. */
+const CA: string = "0x154f58f08fd1fbd1a60c1e45da6bd8c3e773b771";
+
+/**
+ * Pair the chart link opens on DEXTools: the token's Pons curve while it trades there. After graduation, swap in
+ * the address of the pair DEXTools lists for the pool.
+ */
+export const CHART_PAIR = "0x621aceb404669ebb8160b7df4fc00cd89f0f5664";
 
 /**
  * True once the domain points at this deployment. While false, the production *.vercel.app host is served
